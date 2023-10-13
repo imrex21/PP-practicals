@@ -1,0 +1,27 @@
+#5A)write a python program to create list and apply various functions and methods to it
+List = ["Mathematics","chemistry","2000","1997"]
+print(List)
+
+#append()
+List.append(20544)
+print(List)
+
+#insert()
+List.insert(2,1998)
+print(List)
+
+#extend()
+List1=[1,2,3]
+List2=[2,3,4,5]
+List1.extend(List2)
+print(List1)
+List2.extend(List1)
+print(List2)
+
+#len()
+stock_price_1=[65.83]
+stock_price_2=[86.34,98.23,92.98]
+print("stock_price_1 length is",len(stock_price_1))
+print("stock_price_2 length is",len(stock_price_2))
+
+#conclusion: Thus we have studied basic functios and methods of list

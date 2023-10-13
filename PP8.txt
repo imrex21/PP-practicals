@@ -1,0 +1,22 @@
+Practical No. 8
+
+
+
+import numpy as np
+
+#create two arrays 
+array1 = np.array([1, 2, 3, 4, 5,])
+array2 = np.array([4, 9, 16, 25, 36,])
+
+#add the two arrays element-wise
+arr_sum = np.add(array1, array2)
+
+# subtract the array2 from array1 element-wise
+arr_diff = np.subract(array1, array2)
+
+# compute square root of array2 element-wise
+arr_sqrt = np.sqrt(array2)
+
+print("\nsum of arrays:\n", arr_sum)
+print("\nDifference of arrays:\n", arr_diff)
+print("\nSquare root of arrays:\n", arr_sqrt)

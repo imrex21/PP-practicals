@@ -1,0 +1,58 @@
+#PP1
+#Q.1
+#A) Write a program to explore the data types.
+
+#Python program to demonstrate numeric value
+
+a = 5
+print("Type of a: ",type(a))
+
+b = 5.0
+print("Type of b: ",type(b))
+
+c = 2 + 4j
+print("Type of c: ",type(c))
+
+#Creating a list with use of multiple values
+List = ["Orange", "Apple","Mango"]
+print("\nList containing multiple values: ")
+print(List[0])
+print(List[2])
+
+#boolean data type
+x=56
+y=67
+print(x>y)
+
+#B) Pyhton Programs to perform input and Output operation.
+
+x = int(input("Enter first number:"))
+y = int(input("Enter second number:"))
+z = x + y
+m = x - y
+n = x * y
+print("The addition value is:",Z)
+print("The subtraction value is:",m)
+print("The multiplication value is",n)
+
+
+#C) Write a Program to demonstrate the looping in python and use of break statement and continue statement.
+
+#i)Program to demonstrate the use of break in a For Loop iterating over a loop.
+
+no = int(input("Enter any number:")) numbers-[12,45,67,2,90,23,66,32,18,9,34]
+
+for i in numbers:
+	 if i==no:
+         print("Number found in list")
+         break
+else:
+       print("Number not found")
+
+
+#ii) Program to demonstrate the use of continue in a For Loop iterating over a loop.
+
+for letter in "information":
+	if letter=="o":
+	    continue
+	    print("current letter:",letter)

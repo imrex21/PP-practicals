@@ -1,0 +1,23 @@
+#Practical 6
+
+# creating dictionary
+country_capital={
+"unitedstates":"washington D.C",
+"Italy":"R",
+"England":"London",
+"India":"Delhi"}
+
+print(country_capital)
+
+# get dictionary length
+print(len(country_capital))
+
+#change the value of 'italy' key to Rome
+country_capital["italy"] ="Rome"
+print (country_capital)
+
+# delete item having "united states" key
+del country_capital["united states"]
+print(country_capital)
+
+#conclusion:Thus we have studied how to implement the dictionaries in python

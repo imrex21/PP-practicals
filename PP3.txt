@@ -1,0 +1,85 @@
+# Aim: Use of functions in python
+#3A] Write a python program to define and use  function and function arguments.
+
+#>>Define  and use functions 
+# A function is a block of code which only runs when it is called.
+
+def greet():
+    print( 'Hello Everyone' )
+    
+# call the function
+greet()
+print( 'My name is Shravan' )
+
+#>>Python functions Arguments
+
+# function with two arguments
+def add_numbers(num1, num2):
+    sum = num1 + num2
+    print("sum: ",sum)
+    
+#function call with two values
+add_numbers(5, 4)
+
+
+#3B]Write a python program to demonstrate the use of built-in functions.
+
+#1.abs()
+
+#integer number 
+integer = -20
+print( ' Absolute value of -40 is: ' , abs(integer))
+
+#floating number 
+floating = 20.83
+print(' Absolute value of -40.83 is: ' ,abs(floating))
+
+#2.all()
+
+# all values true
+k = [1,3,4,6]
+print(all(k))
+
+# all values false 
+k = [0, False]
+print(all(k))
+
+#3.bin()
+
+x = 10
+y = bin(x)
+print (y)
+
+#4.sum()
+
+s = sum([1,2,4])
+print(s)
+
+s = sum([1, 2, 7], 10)
+print(s)
+
+#5.len()
+
+A = 'Python'
+print( len(A) )
+
+#6.set()
+
+# Calling function
+result = set() # empty set
+result2 = set( '12' )
+result3 = set( 'javapoint' )
+# Displaying result
+print(result)
+print(result2)
+print(result3)
+
+#3C] Write a python program to implement Lambda function
+
+#>>Python lambda Function with an Argument
+
+# lambda that accepts one argument 
+greet_user = lambda name : print( 'Hey there,',name )
+
+#lambda call
+greet_user( 'Shravan' )

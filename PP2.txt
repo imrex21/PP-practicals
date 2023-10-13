@@ -1,0 +1,75 @@
+#PP2
+#2A] Write a python program to demonstrate the use of arithmatic operators.
+
+a = 5
+b = 3
+c = a + b
+print(a,"+",b, "=", c)
+c = a - b
+print(a,"-",b, "=", c)
+c = a * b
+print(a,"*",b, "=", c)
+c = a / b
+print(a,"/",b, "=", c)
+c = a % b
+print(a,"%",b, "=", c)
+c = a ** b
+print(a,"**",b, "=", c)
+c = a // b
+print(a,"//",b, "=", c)
+
+#2B] Write a python program to demonstrate the use of assignment Operators.
+
+a = 5
+b = a
+print("Simple Assign Result:",b)
+
+a = 5
+b = 0
+b += a
+print("Add then Assign Result:", b)
+
+a = 5
+b = 12
+b -= a
+print("Subtract then Assign Result:", b)
+
+a = 5
+b = 2
+b *= a
+print("Multiply then Assign Result:", b)
+
+a = 5
+b = 14
+b /= a
+print("Divide then Assign Result:", b)
+
+a = 5
+b = 27
+b %= a
+print("Modulus then Assign Result:", b)
+
+a = 5
+b = 14
+b //= a
+print("Floor Divide then Assign Result:", b)
+
+a = 5
+b = 2
+b **= a
+print("Exponent then Assign Result:", b)
+
+#2C] Write a python program to demonstrate the use of Comparison/Relational Operators.
+
+a = 12
+b = 7
+print("\n", a, "==", b, "?")
+print(a == b)
+print("\n", a, "!=", b, "?")
+print(a != b)
+print("\n", a, ">", b, "?")
+print(a > b)
+print("\n", a, "<", b, "?")
+print(a < b)
+print("\n", a, ">=", b, "?")
+print(a >= b)

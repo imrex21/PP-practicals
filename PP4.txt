@@ -1,0 +1,37 @@
+#4A] write a python program to implement arrays for storing homogenous data items. Apply indexing and slicing operations.
+
+#Accessing Python Array Elements
+
+import array as arr
+a = arr.array('i',[2,4,6,8])
+
+print("First element;"a[0])
+print("Second element;"a[1])
+print("Last element;"a[-1])
+
+#Slicing Python Array
+
+import array as arr
+numbers_list = [2, 5, 62, 5, 42, 52, 48, 5]
+numbers_array = arr.array("i",
+numbers_list)
+
+print(numbers_array[2:5]) # 3rd to 5th
+print(numbers_array[:-5]) # beginning to 4th
+print(numbers_array[:5]) #6th to end
+print(numbers_array[:]) # beginning to end
+
+#4B] write a python program to implement Numpy for handling n-dimentional arrays.
+
+import numpy as np
+
+#create a 3D array with 2 "Slices", each of 3 rows and 4 columns
+
+array1 = np.array([[1,2,3,4],
+                                [5,6,7,8],
+                                [9,10,11,12]],
+                               [[13,14,15,16],
+                                [17,18,19,20],
+                                [21,22,23,24]]])
+                               
+ print(array1)
